@@ -11,7 +11,7 @@ public class App {
 				n2 = Integer.parseInt(System.console().readLine("introduzca otro número entero distinto al anterior: "));
 				correcto = n1 != n2;
 				if (!correcto) 
-					System.out.println("Los números deben ser distintos.");
+					System.out.println("Los números intoducidos no son válidos, deben ser distintos.");
 			}
 			catch (NumberFormatException e) {
 				System.out.println("Debe introducir un número entero");
